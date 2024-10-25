@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header id="header">
+        <div class="logo"><a href="/">{{titulo}} <span>{{nombre}}</span></a></div>
+                {{>navbar}}
+</header>
+<br><br><br><br><br><br><br><br><br>
+    <section id="servicios" class="servicios">
+        <nav>
+        <a href="javascript:void(0)" class="borde" id="item">Lenguajes de programación que domino</a>
+        </nav>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo"></div>
+                    </div>
+                    <h3>C++</h3>
+                    <p>Es un lenguaje de programación de propósito general que combina la eficiencia de C con características de programación orientada a objetos. Fue desarrollado por Bjarne Stroustrup en los años 80.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo"></div>
+                    </div>
+                    <h3>C#</h3>
+                    <p>Es un lenguaje de programación de propósito general desarrollado por Microsoft como parte de su plataforma .NET. Diseñado para ser sencillo y eficiente, C# combina la robustez de C++ con la simplicidad de lenguajes como Java.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo"></div>
+                    </div>
+                    <h3>Java</h3>
+                    <p>Java es un lenguaje de programación de propósito general, orientado a objetos y ampliamente utilizado, creado por Sun Microsystems en 1995. Su diseño se centra en la portabilidad, la simplicidad y la seguridad.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo"></div>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Es el lenguaje de marcado estándar utilizado para crear y estructurar contenido en la web. Es fundamental para el desarrollo de páginas web y sirve como la base sobre la que se construyen otras tecnologías web.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo"></div>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Es un lenguaje de estilo utilizado para describir la presentación y el diseño de documentos HTML. Se utiliza ampliamente en el desarrollo web para controlar la apariencia visual de las páginas.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo"></div>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript es un lenguaje de programación de alto nivel, interpretado y orientado a objetos, ampliamente utilizado en el desarrollo web. Originalmente creado por Netscape en 1995, se ha convertido en una parte fundamental de la tecnología web moderna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+{{>footer}}
+</html>
+

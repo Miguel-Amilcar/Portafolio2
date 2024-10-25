@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{titulo}}</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo"><a href="/">{{titulo}} <span>{{nombre}}</span></a></div>
+                {{>navbar}}
+</header>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy <strong>Miguel Amilcar Mejía Tó</strong>, un apasionado desarrollador web con experiencia en una variedad de tecnologías. Me encanta crear soluciones innovadoras y trabajar en proyectos desafiantes que me permitan crecer y aprender. Mi objetivo es transformar ideas en realidades digitales efectivas y atractivas.</p>
+        <p>Tengo habilidades en programación con lenguajes como C++, C#, Java, HTML, CSS y JavaScript.</p>
+        
+        <h3>Conéctate Conmigo</h3>
+        <p>Siempre estoy abierto a nuevas oportunidades y colaboraciones. Puedes seguirme en mis redes sociales para ver mis proyectos, compartir ideas o simplemente charlar:</p>
+        <ul class="redes-sociales">
+            <li><a href="https://github.com/tu-usuario" target="_blank">GitHub</a></li>
+            <li><a href="https://www.instagram.com/tu-usuario" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/tu-usuario" target="_blank">Facebook</a></li>
+        </ul>
+    </section>
+</body>
+<br><br><br><br>
+{{>footer}}
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{titulo}}</title>
+</head>
+<body>
+<!-- Sección INICIO -->
+<header id="header">
+        <div class="logo"><a href="/">{{titulo}} <span>{{nombre}}</span></a></div>
+                {{>navbar}}
+</header>
+        <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <br>
+        <nav>
+        <a href="javascript:void(0)" class="borde" id="item">Mis Proyectos</a>
+        </nav>
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/p1_2.png" alt="">
+                <div class="info">
+                    <h3>Proyecto de Gestion de Inventario</h3>
+                    <span>C++</span><span>Sql</span>
+                    <a href="https://github.com/miguel071/Proyecto-programacion1.git">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/p2_3.png" alt="">
+                <div class="info">
+                    <h3>Gestion de Procesos del Sistema Operativo</h3>
+                    <span>C#</span>
+                    <a href="https://github.com/miguel071/proyecto-2.git">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/mru.png" alt="">
+                <div class="info">
+                    <h3>Cálculo de MRU y MRUV</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://miguel071.github.io/forumlario_mru_mruv.github.io/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/jubilacion.png" alt="">
+                <div class="info">
+                    <h3>Cálculo de Jubilación IGSS</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://miguel071.github.io/jubilacion.github.io/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/compilador.png" alt="">
+                <div class="info">
+                    <h3>Compilador</h3>
+                    <span>JAVA</span>
+                    <a href="https://github.com/miguel071/proyecto-compilador.git">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/1.png" alt="">
+                <div class="info">
+                    <h3>probabilidades Estadisticas</h3>
+                    <span>C++</span>
+                    <a href="https://drive.google.com/drive/folders/15B-q2uAErUTMQbjnw1Pwxb37pqruAX26?usp=drive_link">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="img/etica.png" alt="">
+                <div class="info">
+                    <h3>Contenido del Libro de Ética</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="https://johnychiroy.github.io/proyectoetica/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/wali.jpg" alt="">
+                <div class="info">
+                    <h3>Proyecto de Electronica</h3>
+                    <span>C++</span>
+                    <a href="https://drive.google.com/drive/folders/1A464WosnQ93ZSf-raNUaclMcbMmZe1dL?usp=sharing">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/batres.jpg" alt="">
+                <div class="info">
+                    <h3>Sistema de farmacias Batres</h3>
+                    <span>html</span><span>css</span><span>javascript</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Incluir footer -->
+    {{> footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
